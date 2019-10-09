@@ -36,7 +36,7 @@ HTTPSocket::HTTPSocket(unsigned int timeout)
     URLOption option;
 
     option = {"User-Agent",
-              "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3"};
+              "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3 Lavf53.32.100"};
     m_defaultOptions.push_back(option);
 
     // <= zero disables timeout
